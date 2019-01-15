@@ -8,7 +8,7 @@ The lastDownloadedBlock variable was not reset when discarding invalid blocks. T
 ## Solution
 Reset last downloaded block after discarding an invalid block.
 
-> Patch PR: https://github.com/ArkEcosystem/core/pull/1692
+> Patch: https://github.com/ArkEcosystem/core/pull/1692
 
 ## Status
 Closed.
