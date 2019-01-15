@@ -4,14 +4,14 @@ Producing software inherently comes with risks. All software, especially new rel
 
 >This repository series will serve as a public disclosure of any discovered and patched vulnerabilities within the ARK Blockchain Platform Product Landscape (Core, Desktop Wallet, Mobile Wallet, ARK Pay & Deployer).
 
-The lists of know and closed or still open security vulnerabiliters can be found in the tables below. The table consits of four fields, describing the basic information about listed security vulnerabilties and links to a more detailed description.
+The lists of know and closed or still open security vulnerabiliters can be found in the tables below. The table consits of four fields, describing the basic information about listed security vulnerabilties and links to a more detailed description, by clicking on the link in the identifier field.
 
 ## Core Security Vulnerabilities
 
 | Identifier        | Title        | Status | Version |
 | ------------- | ------------ | ------ | ----- | 
-| [Core-SV-007](/core/core-sv-007.md)|  Forged blocks by anyone can cause the chain to stop/or start recovering | Closed | [v2.0.17](https://github.com/ArkEcosystem/core/releases/tag/2.0.17) |
 | [Core-SV-008](/core/core-sv-008.md)|  Forging multiple blocks in a slot and rewards hijacking | Closed | [v2.0.17](https://github.com/ArkEcosystem/core/releases/tag/2.0.17) |
+| [Core-SV-007](/core/core-sv-007.md)|  Forged blocks by anyone can cause the chain to stop/or start recovering | Closed | [v2.0.17](https://github.com/ArkEcosystem/core/releases/tag/2.0.17) |
 | [Core-SV-006](/core/core-sv-006.md)|  Transaction replay attack with known 2nd signature passphrase / multisignature | Open | |
 | [Core-SV-005](/core/core-sv-005.md)|  Double forging a block | Open |  |
 | [Core-SV-004](/core/core-sv-004.md)|  IP spoofing | Closed | [v2.0.16](https://github.com/ArkEcosystem/core/releases/tag/2.0.16) |
