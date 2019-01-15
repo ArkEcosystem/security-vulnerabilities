@@ -1,4 +1,4 @@
-# Double forging a block - Core-SV-2019-0005
+# Double forging a block - Core-SV-0005
 
 ## Cause
 Many of the public testers might have thought that double forging was mitigated and solved during the testing phase, but this was never the case. Double forging appeared to be working more correctly due to the way we handled transaction propagation in the initial versions of Core v2. All nodes had homogeneous transaction pools and broadcasted to all peers. The double forged blocks had the same content and same IDs. That is why it was not detected as an issue during initial public testing.

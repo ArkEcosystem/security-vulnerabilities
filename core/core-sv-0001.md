@@ -1,4 +1,4 @@
-# Invalid block received - Core-SV-2019-0001
+# Invalid block received - Core-SV-0001
 
 ## Cause
 The lastDownloadedBlock variable was not reset when discarding invalid blocks. This caused network nodes to continually attempt to download new blocks from the wrong height, effectively halting the network. This issue would have allowed a malicious user to disrupt network nodes and the network itself.

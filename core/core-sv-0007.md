@@ -1,4 +1,4 @@
-# Forging multiple blocks in a slot and rewards hijacking - Core-SV-2019-0007
+# Forging multiple blocks in a slot and rewards hijacking - Core-SV-0007
 
 ## Cause
 Any active delegate can forge multiple blocks within their allocated 8 second slot time, as long as the block IDs are different and are all sent to the same node with an incrementing block height (last block height + 1), as each block is considered to be valid and accepted on the chain. This has the effect of generating block rewards for each of the multiple blocks that are forged in the slot, resulting in inflated rewards per round for any delegate that carries out this exploit.

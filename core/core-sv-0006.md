@@ -1,4 +1,4 @@
-# Transaction replay attack with known 2nd signature passphrase / multisignature - Core-SV-2019-0006
+# Transaction replay attack with known 2nd signature passphrase / multisignature - Core-SV-0006
 
 ## Cause
 It is currently possible to generate distinct signatures for the same transaction from the same private key which can all be verified by the same public key. The 2nd signature changes the ID of a transaction so it is not considered to be a duplicate, but a new transaction. That means if your second passphrase is lost/stolen an attacker can replay your previous transactions by simply changing the 2nd signature.
