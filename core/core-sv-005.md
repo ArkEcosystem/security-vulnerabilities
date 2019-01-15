@@ -1,4 +1,5 @@
-# Double forging a block - Core-SV-0005
+# Double forging a block
+**Identifier:** Core-SV-0005
 
 ## Cause
 Many of the public testers might have thought that double forging was mitigated and solved during the testing phase, but this was never the case. Double forging appeared to be working more correctly due to the way we handled transaction propagation in the initial versions of Core v2. All nodes had homogeneous transaction pools and broadcasted to all peers. The double forged blocks had the same content and same IDs. That is why it was not detected as an issue during initial public testing.
@@ -12,9 +13,9 @@ Until then, forging delegates need to make sure they do NOT run two or more serv
 ## Solution
 The network as of now detects double forging and tries to recover via fork management, but this isn’t optimal and still leaves room for user or script errors.
 
-> Patch: TBD
-> Work In Progress: https://github.com/ArkEcosystem/AIPs/blob/master/AIPS/aip-24.md
+**Patch:** TBD
+**Work In Progress:** https://github.com/ArkEcosystem/AIPs/blob/master/AIPS/aip-24.md
 
 ## Status
 Open.
-> Release link: TBD 
+**Release:** TBD 
