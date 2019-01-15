@@ -1,10 +1,10 @@
 ## Number and Title or name of the Security Vulnerability 
-The numbers are following the format: CODE-YEAR-NNNN (e.g. ASV-2019-0000 - Template definition). The code field prefix defines the product to which the security vulnerability applies. We support the following CODE prefixes:
+The numbers are following the format: CODE-SV-NNN (e.g. CORE-SV-000). The code field prefix defines the product to which the security vulnerability applies. We support the following CODE prefixes:
 - Core - for Ark Core
 - Dewa - for Desktop Wallet
 - Mowa - for Mobile Wallet
 - Pay - for Ark Pay
-- Depl - for Ark Deployer.
+- Depl - for Ark Deployer
 
 ## Cause
 Describe the cause of the security vulnerability by explaining the reasons, steps or process on how to reproduce it.
