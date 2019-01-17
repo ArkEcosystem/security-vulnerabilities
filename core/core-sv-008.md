@@ -1,5 +1,5 @@
 # Forged blocks by anyone can cause the chain to stop/or start recovering
-**Identifier:** Core-SV-0008
+**Identifier:** Core-SV-008
 
 ## Cause
 Anyone is able to broadcast signed blocks. When receiving a forged block from a wrong generator, the chain will fork. This also applies to inactive (unknown) generators. If a malicious actor now keeps broadcasting such blocks, the chain would effectively cease operating.
