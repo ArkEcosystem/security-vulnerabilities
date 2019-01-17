@@ -6,7 +6,7 @@ We are running our own [development and security bounty program](https://blog.ar
 
 >This repository series will serve as a public disclosure of any discovered and patched vulnerabilities within the ARK Blockchain Platform Product Landscape (Core, Desktop Wallet, Mobile Wallet, ARK Pay & Deployer).
 
-The lists of know and closed or still open security vulnerabiliters can be found in the tables below. The table consits of four fields, describing the basic information about listed security vulnerabilties and links to a more detailed description, by clicking on the link in the identifier field.
+The lists of know and closed or still open security vulnerabilites can be found in the tables below. The table consists of four fields, describing the basic information about listed security vulnerabilities and links to a more detailed description, by clicking on the link in the identifier field.
 
 ## Core Security Vulnerabilities
 
