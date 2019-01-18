@@ -1,5 +1,5 @@
 # IP spoofing
-**Identifier:** Core-SV-0004
+**Identifier:** Core-SV-004
 
 ## Cause
 The whitelist could be bypassed by IP spoofing due to the way we determined the IP of a request. This could also be used to fill up the peer list with loopback IP addresses to cause a DoS attack and prevent block propagation.

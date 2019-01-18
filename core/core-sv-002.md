@@ -1,5 +1,5 @@
 # Generating new Ark using multi signature transaction
-**Identifier:** Core-SV-0002
+**Identifier:** Core-SV-002
 
 ## Cause
 In a multi-signature transaction, the transaction handler only verified the signatures and did not properly conduct balance checks. This made it possible to generate new ARK tokens on the network utilizing a multi-signature transaction.

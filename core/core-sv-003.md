@@ -1,5 +1,5 @@
 # Second signature transaction replay
-**Identifier:** Core-SV-0003
+**Identifier:** Core-SV-003
 
 ## Cause
 Attaching a second signature to a previous transaction sent from any wallet that does not have a second passphrase would allow the transaction to be infinitely forged and replayed over and over again.
