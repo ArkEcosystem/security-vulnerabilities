@@ -9,7 +9,7 @@ The whitelist could be bypassed by IP spoofing due to the way we determined the 
 ## Solution
 Use request.info.remoteAddress as provided by Hapi to get an IP of the peer.
 
-**Patch:** https://github.com/ArkEcosystem/core/pull/1658
+**Patch:** https://github.com/ArkEcosystem/core/pull/1695
 
 ## Status
 Closed.
