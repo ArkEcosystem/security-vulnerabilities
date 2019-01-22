@@ -2,7 +2,7 @@
 
 Producing software inherently comes with risks. All software, especially new releases and large code re-writes, have a higher probability of producing bugs during production and initial release. To combat this, the ARK team has introduced modern testing methods, higher test coverage, a custom developed e2e testing framework and increased the availability for testing on our Development Network prior to the releases. Despite all of that, no one can catch every potential issue. 
 
-We are running our own [development and security bounty program](https://blog.ark.io/ark-development-and-security-bounty-program-a95122d06879), and we have partnered with [Bugcrowd — the planet’s premier crowd sourced security platform!](https://blog.ark.io/ark-and-bugcrowd-go-hunting-cda4025051d5) Make sure to check both bounty programs. 
+We are running our own [development and security bounty program](https://blog.ark.io/ark-development-and-security-bounty-program-a95122d06879), and we have partnered with [Bugcrowd — the planet’s premier crowd sourced security platform!](https://blog.ark.io/ark-and-bugcrowd-go-hunting-cda4025051d5) Make sure to check both bounty programs. Please check detailed instructions, on how to report a security vulnerability https://docs.ark.io/security/.
 
 >This repository series will serve as a public disclosure of any discovered and patched vulnerabilities within the ARK Blockchain Platform Product Landscape (Core, Desktop Wallet, Mobile Wallet, ARK Pay & Deployer).
 
