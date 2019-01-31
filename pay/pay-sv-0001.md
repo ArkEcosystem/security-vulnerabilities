@@ -7,7 +7,7 @@ The numbers are following the format: CODE-SV-NNN (e.g. CORE-SV-000). The code f
 - Depl - for Ark Deployer
 
 The first line after the title should be the security vulnerability identifier.
-**Identifier**: Core-SV-0000
+**Identifier**: Core-SV-000
 
 ## Cause
 Describe the cause of the security vulnerability by explaining the reasons, steps or process on how to reproduce it.

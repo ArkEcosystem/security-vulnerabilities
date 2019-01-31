@@ -10,8 +10,11 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 ## Core Security Vulnerabilities
 
-| Identifier        | Title        | Status | Version |
+| Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-011](/core/core-sv-011.md)|  Malicious delegate zero(0) - ARK transaction spam | Closed | [v2.0.17](https://github.com/ArkEcosystem/core/releases/tag/2.0.18) |
+| [Core-SV-010](/core/core-sv-010.md)|  Malicious delegate can cause peers to fork and roll back simultaneously | [v2.0.17](https://github.com/ArkEcosystem/core/releases/tag/2.0.19) |
+| [Core-SV-009](/core/core-sv-009.md)|  Fake peers can be added by using non-quad-dotted notation | Closed | [v2.0.17](https://github.com/ArkEcosystem/core/releases/tag/2.0.19) |
 | [Core-SV-008](/core/core-sv-008.md)|  Forged blocks by anyone can cause the chain to stop/or start recovering | Closed | [v2.0.17](https://github.com/ArkEcosystem/core/releases/tag/2.0.17) |
 | [Core-SV-007](/core/core-sv-007.md)|  Forging multiple blocks in a slot and rewards hijacking | Closed | [v2.0.17](https://github.com/ArkEcosystem/core/releases/tag/2.0.17) |
 | [Core-SV-006](/core/core-sv-006.md)|  Transaction replay attack with known 2nd signature passphrase / multisignature | Open | |
@@ -24,21 +27,21 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 ## Desktop Wallet Security Vulnerabilities
 
-| Identifier        | Title        | Status | Version |
+| Identifier| Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
 
 
 ## Mobile Wallet Security Vulnerabilities
 
-| Identifier        | Title        | Status | Version |
+| Identifier| Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
 
 ## Ark Pay Security Vulnerabilities
 
-| Identifier        | Title        | Status | Version |
+| Identifier| Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
 
 ## Ark Deployer Security Vulnerabilities
 
-| Identifier        | Title        | Status | Version |
+| Identifier| Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 

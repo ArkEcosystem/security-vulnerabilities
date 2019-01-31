@@ -7,7 +7,7 @@ Anyone is able to broadcast signed blocks. When receiving a forged block from a 
 >Reported by: delegate fun
 
 ## Solution
- When the wrong generator is detected, distinguish between inactive and active generators and only fork in the latter case. Otherwise the block will be just ignored.
+ When the wrong generator is detected, distinguish between inactive and active generators and only fork in the latter case. Otherwise, the block will be just ignored.
 
 **Patch:** https://github.com/ArkEcosystem/core/pull/1974/
 
