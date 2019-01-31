@@ -1,4 +1,4 @@
-# Forging multiple blocks in a slot and rewards hijacking - 
+# Forging multiple blocks in a slot and rewards hijacking
 **Identifier:** Core-SV-007
 
 ## Cause
