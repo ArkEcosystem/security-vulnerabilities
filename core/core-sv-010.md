@@ -9,10 +9,10 @@ The severity of this issue is the fact that all nodes receiving the bad block wi
 >Reported by: delegate fun
 
 ## Solution
+Mitigation is achieved by discarding blocks with a past timestamp without triggering the fork recovery process.
 
-
-**Patch:** https://github.com/ArkEcosystem/core/pull/1974/
+**Patch:** https://github.com/ArkEcosystem/core/pull/2042
 
 ## Status
 Closed.
-**Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.17
+**Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.19
