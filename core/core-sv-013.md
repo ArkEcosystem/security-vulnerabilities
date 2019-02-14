@@ -10,8 +10,6 @@ Although nodes would accept these larger transactions as valid, when it was time
 
 This could have been used to deliberately target a specific delegate by sending a single transaction to its node that almost hits this limit. The node would not be able to rebroadcast it to other peers because, when a node rebroadcasts transactions to other nodes, a serialized version of the transaction is appended to itself, causing the transaction to exceed the payload size limit so other nodes would not accept it. The result was that only the targeted node had the oversized transaction in its transaction pool, preventing it from forging until the transaction expired. Repeating this prior to the expiry of the oversized transaction would prevent the delegate from ever forging again because its transaction pool would never become empty, unless the delegate node administrator manually cleared their transaction pool - potentially losing other unforged transactions - and even then, an attacker could continue to pollute the transaction pool again afterwards. This vector therefore opened the possibility for individual delegates to be blackmailed.
 
-No delegate requirement
-
 This exploit does not require a delegate or a modified node. Literally anybody can execute it.
 
 >Reported by: delegate fun
