@@ -6,14 +6,12 @@ Transactions signed with a second signature prior to the second signature regist
 
 This does not require a delegate to execute.
 
-
-
-A patch has been supplied to ensure that the transaction pool will not accept a transaction from a sender if their second signature registration remains unforged in the pool.
 >Reported by: delegate fun
+A patch has been supplied to ensure that the transaction pool will not accept a transaction from a sender if their second signature registration remains unforged in the pool.
 
 ## Solution
 
-**Patch:** 
+**Patch:** https://github.com/ArkEcosystem/core/pull/2458
 
 ## Status
 Closed.
