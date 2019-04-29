@@ -7,7 +7,8 @@ Transactions signed with a second signature prior to the second signature regist
 This does not require a delegate to execute.
 
 >Reported by: delegate fun
-A patch has been supplied to ensure that the transaction pool will not accept a transaction from a sender if their second signature registration remains unforged in the pool.
+
+A patch has been supplied by delegate fun to ensure that the transaction pool will not accept a transaction from a sender if their second signature registration remains unforged in the pool.
 
 ## Solution
 
