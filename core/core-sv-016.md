@@ -8,6 +8,10 @@ When a block is received, the accept block handler (`core/packages/core-blockcha
 
 >Reported by: delegate fun
 
+## Solution
+
+**Patch:** https://github.com/ArkEcosystem/core/pull/2458
+
 ## Status
 Closed.
 
