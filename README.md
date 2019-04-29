@@ -6,12 +6,15 @@ We are running our own [development and security bounty program](https://blog.ar
 
 >This repository series will serve as a public disclosure of any discovered and patched vulnerabilities within the ARK Blockchain Platform Product Landscape (Core, Desktop Wallet, Mobile Wallet, ARK Pay & Deployer).
 
-The lists of know and closed or still open security vulnerabilites can be found in the tables below. The table consists of four fields, describing the basic information about listed security vulnerabilities and links to a more detailed description, by clicking on the link in the identifier field.
+The lists of know and closed or still open security vulnerabilites can be found in the tables below. The table consists of four fields, describing the basic information about listed security vulnerabilities and links to a more detailed description, by clicking on the link in the identifier field. 
 
 ## Core Security Vulnerabilities
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-017](/core/core-sv-017.md)| Second Signature Transaction Broadcast/Sign/Order | Closed | [v2.3](https://github.com/ArkEcosystem/core/releases/tag/2.2.2) |k
+| [Core-SV-016](/core/core-sv-016.md)| Receiving a block containing non-valid transactions causes peers to rollback | Closed | [v2.3](https://github.com/ArkEcosystem/core/releases/tag/2.2.2) |
+| [Core-SV-015](/core/core-sv-015.md)| Delayed block propagation causes the next delegate to miss its block | Closed | [v2.3](https://github.com/ArkEcosystem/core/releases/tag/2.2.2) |
 | [Core-SV-014](/core/core-sv-014.md)| API endpoint open to possible DDOS attack | Closed | [v2.2.2](https://github.com/ArkEcosystem/core/releases/tag/2.2.2) |
 | [Core-SV-013](/core/core-sv-013.md)| Transactions near the payload size limit can stop delegates forging | Closed | [v2.1.2](https://github.com/ArkEcosystem/core/releases/tag/2.1.2) |
 | [Core-SV-012](/core/core-sv-012.md)| Conflicting delegate registration transactions | Closed | [v2.1.0](https://github.com/ArkEcosystem/core/releases/tag/2.1.0) |
