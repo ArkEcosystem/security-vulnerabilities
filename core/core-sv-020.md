@@ -10,9 +10,9 @@ If a node receives a high volume of transactions entering the transaction pool i
 
 **Patch:**
 
-https://github.com/ArkEcosystem/core/pull/2659
-https://github.com/ArkEcosystem/core/pull/2635
-https://github.com/ArkEcosystem/core/pull/2622
+- https://github.com/ArkEcosystem/core/pull/2659
+- https://github.com/ArkEcosystem/core/pull/2635
+- https://github.com/ArkEcosystem/core/pull/2622
 
 ## Status
 Closed.

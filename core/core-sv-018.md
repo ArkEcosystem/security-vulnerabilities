@@ -12,9 +12,9 @@ This does not require a delegate to execute.
 
 **Patch:**
 
-https://github.com/ArkEcosystem/core/pull/2659
-https://github.com/ArkEcosystem/core/pull/2635
-https://github.com/ArkEcosystem/core/pull/2622 
+- https://github.com/ArkEcosystem/core/pull/2659
+- https://github.com/ArkEcosystem/core/pull/2635
+- https://github.com/ArkEcosystem/core/pull/2622 
 
 ## Status
 Closed.

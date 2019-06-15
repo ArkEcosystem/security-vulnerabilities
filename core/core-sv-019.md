@@ -10,8 +10,8 @@ Forging nodes can be tricked into thinking they are double forging, even when th
 
 **Patch:**
 
-https://github.com/ArkEcosystem/core/pull/2686
-https://github.com/ArkEcosystem/core/pull/2687
+- https://github.com/ArkEcosystem/core/pull/2686
+- https://github.com/ArkEcosystem/core/pull/2687
 
 ## Status
 Closed.
