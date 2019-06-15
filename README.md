@@ -12,6 +12,9 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-020](/core/core-sv-020.md)| Race condition can result in blocks containing already forged transactions | Closed | [v2.4](https://github.com/ArkEcosystem/core/releases/tag/2.4.0) |
+| [Core-SV-019](/core/core-sv-019.md)| Block header manipulation in quorum calculations prevents nodes forging | Closed | [v2.4](https://github.com/ArkEcosystem/core/releases/tag/2.4.0) |
+| [Core-SV-018](/core/core-sv-018.md)| Second Signature Transaction Pool Validation | Closed | [v2.4](https://github.com/ArkEcosystem/core/releases/tag/2.4.0) |
 | [Core-SV-017](/core/core-sv-017.md)| Second Signature Transaction Broadcast/Sign/Order | Closed | [v2.3](https://github.com/ArkEcosystem/core/releases/tag/2.3.0) |k
 | [Core-SV-016](/core/core-sv-016.md)| Receiving a block containing non-valid transactions causes peers to rollback | Closed | [v2.3](https://github.com/ArkEcosystem/core/releases/tag/2.3.0) |
 | [Core-SV-015](/core/core-sv-015.md)| Delayed block propagation causes the next delegate to miss its block | Closed | [v2.3](https://github.com/ArkEcosystem/core/releases/tag/2.3.0) |
