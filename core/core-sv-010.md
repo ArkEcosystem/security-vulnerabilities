@@ -6,7 +6,7 @@ A malicious delegate can craft a block at the correct height but with a timestam
 
 The severity of this issue is the fact that all nodes receiving the bad block will fork and immediately roll back, which could trigger a perfect storm if every node on the network rolls back at the same time, erasing the latest blocks, meaning no node has the latest blocks to recover from anymore. This is easy to achieve with a modified forger by requesting the IP addresses of the peers of all your own peers, continually iterating until you obtain an exhaustive list of all IPs on the network and then blast a bad block to all of those IPs at the same time across multiple nodes to reduce latency. Although transactions in those destroyed blocks would in theory return to the pool to be re-forged, the problem is that, over time, nodes stop responding and require manual intervention to recover from this attack and it could take longer than the transaction expiry time for the network to start moving again to re-forge them.
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 Mitigation is achieved by discarding blocks with a past timestamp without triggering the fork recovery process.

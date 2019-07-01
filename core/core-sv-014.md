@@ -4,7 +4,7 @@
 ## Cause: 
 Endpoint /api/v2/delegates/{delegate}/voters/balances does not paginate its results. This could be a vector for DDoS as anyone can request the vote balances of every voter of a delegate in one API call. For delegates with large number of voters (>5000) this could overload the server even before the HTTP rate limiting kicked in.
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 API endpoint was removed.

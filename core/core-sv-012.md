@@ -10,7 +10,7 @@ All of these transactions would be accepted, added the pool and broadcasted to o
 
 This exploit does not require a delegate, malicious or otherwise, to carry it out. It can be triggered by any user of the network at any time, either deliberately or accidentally.
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 Mitigation is achieved by enforcing additional checks in the API (transaction pool) as well as on the protocol (consensus) level.

@@ -6,7 +6,7 @@ It is possible to stall the blockchain, by manipulating second signature registr
 
 This does not require a delegate to execute.
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 

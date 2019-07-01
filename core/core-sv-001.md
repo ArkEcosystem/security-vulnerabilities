@@ -4,7 +4,7 @@
 ## Cause
 The lastDownloadedBlock variable was not reset when discarding invalid blocks. This caused network nodes to continually attempt to download new blocks from the wrong height, effectively halting the network. This issue would have allowed a malicious user to disrupt network nodes and the network itself.
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 Reset last downloaded block after discarding an invalid block.
