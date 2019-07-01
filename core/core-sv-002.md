@@ -4,7 +4,7 @@
 ## Cause
 In a multi-signature transaction, the transaction handler only verified the signatures and did not properly conduct balance checks. This made it possible to generate new ARK tokens on the network utilizing a multi-signature transaction.
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 Perform wallet balance checks for multi signature transactions.

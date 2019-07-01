@@ -12,7 +12,7 @@ This could have been used to deliberately target a specific delegate by sending 
 
 This exploit does not require a delegate or a modified node. Literally anybody can execute it.
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 Mitigation is achieved by enforcing additional checks in the API (transaction pool) as well as on the protocol (consensus) level.

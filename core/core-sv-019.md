@@ -4,7 +4,7 @@
 ## Cause
 Forging nodes can be tricked into thinking they are double forging, even when they are not. This activates the automatic protection which stops the nodes from forging. As the delegates were not actually double forging in the first place, they do not produce any blocks. If all delegates are targeted, the chain completely stops.
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 

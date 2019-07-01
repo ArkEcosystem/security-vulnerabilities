@@ -6,7 +6,7 @@ The transaction schema in crypto/validation/rules/models/transactions/transfer i
 
 However, this check is not enforced at consensus-level. A node operator could remove that schema check and then zero amount transfers will be accepted by their node to be forged. Importantly, due to the lack of consensus-level check, other unmodified nodes will then happily accept blocks containing these forged zero-amount type 0 transactions, storing them in the blockchain, despite being invalid in accordance with the above schema rules. Contrast this with fees, where zero-fee transactions are rejected at consensus-level, so even removing the schema check will result in blocks containing such transactions to be rejected. That is not the case here, although it should be, as it can lead to a situation where delegates can spam the network with zero-amount transfers. If they self-forge the transactions then they recover the fee, so it becomes a completely free way to constantly spam the network with every block they forge, thus bloating the blockchain for all nodes with technically invalid transactions.
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 Mitigation is achieved by enforcing additional checks. 

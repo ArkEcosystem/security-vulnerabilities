@@ -12,7 +12,7 @@ Peers using non-quad-dotted notation representation can still be added to peer l
 3. Other peers will begin adding the same fake peers to their own peer list as the poisoned peer list gets shared across other peers and this will have a snowball effect as more poisoned peer lists will propagate until eventually everyone has poisoned lists and the entire network grinds to a halt.
 
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 Use `ipaddr.js` to ensure IPv4 addresses are converted into quad-dotted notation.

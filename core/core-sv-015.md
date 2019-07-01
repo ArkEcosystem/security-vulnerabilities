@@ -6,7 +6,7 @@ If a delegate forges a block but is late broadcasting it, the next delegate in l
 
 This could be done maliciously to deliberately prevent the next delegate in line from forging, or by accident if there is sufficient network latency. 
 
->Reported by: delegate fun
+>Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
 Mitigation was acheived by using the height from the network rather than the local node when forging a block.

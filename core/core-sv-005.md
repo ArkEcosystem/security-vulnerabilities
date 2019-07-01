@@ -10,6 +10,8 @@ There is an AIP-24: Double Forging Improvements draft in progress that will addr
 
 Until then, forging delegates need to make sure they do NOT run two or more servers with the forger process ‘on’ and passphrase set, have more relay nodes in front of their forging delegate, and that they don’t run automatic scripts to switch the forgers. We have seen failover scripts cause double forging that halts the network in the past and until a solution is in place, this practice risks harming the network.
 
+>Reported by: [alessio](https://github.com/alessiodf)
+
 ## Solution
 The network as of now detects double forging and tries to recover via fork management, but this isn’t optimal and still leaves room for user or script errors.
 
