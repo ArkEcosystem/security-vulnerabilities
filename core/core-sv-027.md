@@ -4,6 +4,7 @@
 
 ## Cause: 
 It was possible to take down a node and either stop it forging or delay its block propagation to fork the network by exploiting a weakness in SocketCluster by sending raw payloads to the node that did not conform to the SocketCluster JSON format.
+
 >Reported by: [alessio](https://github.com/alessiodf)
 
 ## Solution
