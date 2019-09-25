@@ -12,6 +12,8 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-028](/core/core-sv-028.md)| Rate limiting was ineffective due to inappropriate disconnection methods | Closed | [v2.5.24](https://github.com/ArkEcosystem/core/releases/tag/2.5.24) |
+| [Core-SV-027](/core/core-sv-027.md)| Malformed messages on the P2P layer could hang up a node and stop delegates forging | Closed | [v2.5.24](https://github.com/ArkEcosystem/core/releases/tag/2.5.24) |
 | [Core-SV-026](/core/core-sv-026.md)| P2P endpoint request events were not sanitised | Closed | [v2.5.19](https://github.com/ArkEcosystem/core/releases/tag/2.5.19) |
 | [Core-SV-025](/core/core-sv-025.md)| Core plugin names were not length restricted so could cause DoS in peer lists | Closed | [v2.5.19](https://github.com/ArkEcosystem/core/releases/tag/2.5.19) |
 | [Core-SV-024](/core/core-sv-024.md)| Peer lists could become too large and be manipulated to become a DDoS network | Closed | [v2.5.14](https://github.com/ArkEcosystem/core/releases/tag/2.5.14) |
