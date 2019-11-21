@@ -12,6 +12,7 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-030](/core/core-sv-030.md)| Ping control frame bombardment could prevent block propagation | Closed | [v2.5.28](https://github.com/ArkEcosystem/core/releases/tag/2.5.28) |
 | [Core-SV-029](/core/core-sv-029.md)| Externally hitting internal P2P endpoints could stop a node handling requests | Closed | [v2.5.25](https://github.com/ArkEcosystem/core/releases/tag/2.5.25) |
 | [Core-SV-028](/core/core-sv-028.md)| Rate limiting was ineffective due to inappropriate disconnection methods | Closed | [v2.5.24](https://github.com/ArkEcosystem/core/releases/tag/2.5.24) |
 | [Core-SV-027](/core/core-sv-027.md)| Malformed messages on the P2P layer could hang up a node and stop delegates forging | Closed | [v2.5.24](https://github.com/ArkEcosystem/core/releases/tag/2.5.24) |
