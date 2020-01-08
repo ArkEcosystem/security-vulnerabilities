@@ -12,6 +12,8 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-032](/core/core-sv-032.md)| Multiple disconnect JSON packets caused high CPU utilization | Closed | [v2.5.31](https://github.com/ArkEcosystem/core/releases/tag/2.5.31) |
+| [Core-SV-031](/core/core-sv-031.md)| Sending HyBi WebSocket headers with no data could stop nodes forging | Closed | [v2.5.30](https://github.com/ArkEcosystem/core/releases/tag/2.5.30) |
 | [Core-SV-030](/core/core-sv-030.md)| Ping control frame bombardment could prevent block propagation | Closed | [v2.5.28](https://github.com/ArkEcosystem/core/releases/tag/2.5.28) |
 | [Core-SV-029](/core/core-sv-029.md)| Externally hitting internal P2P endpoints could stop a node handling requests | Closed | [v2.5.25](https://github.com/ArkEcosystem/core/releases/tag/2.5.25) |
 | [Core-SV-028](/core/core-sv-028.md)| Rate limiting was ineffective due to inappropriate disconnection methods | Closed | [v2.5.24](https://github.com/ArkEcosystem/core/releases/tag/2.5.24) |
