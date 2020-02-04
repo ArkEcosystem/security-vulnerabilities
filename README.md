@@ -12,6 +12,11 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-037](/core/core-sv-037.md)| A malicious block containing thousands of transactions could take down a node | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
+| [Core-SV-036](/core/core-sv-036.md)| Opening thousands of sockets caused high CPU/memory usage and full server crashes | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
+| [Core-SV-035](/core/core-sv-035.md)| Broadcasting invalid WebSocket opcodes caused significant network degradation and missed blocks | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
+| [Core-SV-034](/core/core-sv-034.md)| Unhandled unemitted events could trigger high CPU spikes and propagation delays | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
+| [Core-SV-033](/core/core-sv-033.md)| JSON payloads with too many key-value pairs were too CPU intensive to parse | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
 | [Core-SV-032](/core/core-sv-032.md)| Multiple disconnect JSON packets caused high CPU utilization | Closed | [v2.5.31](https://github.com/ArkEcosystem/core/releases/tag/2.5.31) |
 | [Core-SV-031](/core/core-sv-031.md)| Sending HyBi WebSocket headers with no data could stop nodes forging | Closed | [v2.5.30](https://github.com/ArkEcosystem/core/releases/tag/2.5.30) |
 | [Core-SV-030](/core/core-sv-030.md)| Ping control frame bombardment could prevent block propagation | Closed | [v2.5.28](https://github.com/ArkEcosystem/core/releases/tag/2.5.28) |
