@@ -12,6 +12,7 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-038](/core/core-sv-038.md)| Plain HTTP connections to the p2p port could crash the node's operating system | Closed | [v2.6.11](https://github.com/ArkEcosystem/core/releases/tag/2.6.11) |
 | [Core-SV-037](/core/core-sv-037.md)| A malicious block containing thousands of transactions could take down a node | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
 | [Core-SV-036](/core/core-sv-036.md)| Opening thousands of sockets caused high CPU/memory usage and full server crashes | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
 | [Core-SV-035](/core/core-sv-035.md)| Broadcasting invalid WebSocket opcodes caused significant network degradation and missed blocks | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
