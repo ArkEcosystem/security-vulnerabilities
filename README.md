@@ -12,6 +12,9 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-041](/core/core-sv-041.md)| Overloading the public API could stop the transaction and block processing on a node | Closed | [v2.6.30](https://github.com/ArkEcosystem/core/releases/tag/2.6.30) |
+| [Core-SV-040](/core/core-sv-040.md)| Long-lived HTTP requests via the P2P layer could crash the node | Closed | [v2.6.27](https://github.com/ArkEcosystem/core/releases/tag/2.6.27) |
+| [Core-SV-039](/core/core-sv-039.md)| Pool wallet manager could lock up funds by not updating multipayment balances | Closed | [v2.6.21](https://github.com/ArkEcosystem/core/releases/tag/2.6.21) |
 | [Core-SV-038](/core/core-sv-038.md)| Plain HTTP connections to the p2p port could crash the node's operating system | Closed | [v2.6.11](https://github.com/ArkEcosystem/core/releases/tag/2.6.11) |
 | [Core-SV-037](/core/core-sv-037.md)| A malicious block containing thousands of transactions could take down a node | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
 | [Core-SV-036](/core/core-sv-036.md)| Opening thousands of sockets caused high CPU/memory usage and full server crashes | Closed | [v2.5.36](https://github.com/ArkEcosystem/core/releases/tag/2.5.36) |
