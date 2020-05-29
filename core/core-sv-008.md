@@ -13,4 +13,5 @@ Anyone is able to broadcast signed blocks. When receiving a forged block from a 
 
 ## Status
 Closed.
+
 **Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.17

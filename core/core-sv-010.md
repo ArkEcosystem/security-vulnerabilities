@@ -15,4 +15,5 @@ Mitigation is achieved by discarding blocks with a past timestamp without trigge
 
 ## Status
 Closed.
+
 **Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.19
