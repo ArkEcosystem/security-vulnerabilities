@@ -20,4 +20,5 @@ The network as of now detects double forging and tries to recover via fork manag
 
 ## Status
 Open.
+
 **Release:** TBD 

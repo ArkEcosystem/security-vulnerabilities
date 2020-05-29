@@ -13,6 +13,7 @@ Use request.info.remoteAddress as provided by Hapi to get an IP of the peer.
 
 ## Status
 Closed.
+
 **Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.16
 
 

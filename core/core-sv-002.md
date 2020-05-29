@@ -13,6 +13,7 @@ Perform wallet balance checks for multi signature transactions.
 
 ## Status
 Closed.
+
 **Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.16
 
 

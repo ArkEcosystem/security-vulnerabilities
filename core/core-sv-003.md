@@ -13,6 +13,7 @@ Ensure that the sender wallet has a second public key and if not reject the tran
 
 ## Status
 Closed.
+
 **Release**: https://github.com/ArkEcosystem/core/releases/tag/2.0.16
 
 

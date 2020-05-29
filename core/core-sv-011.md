@@ -15,4 +15,5 @@ Mitigation is achieved by enforcing additional checks.
 
 ## Status
 Closed.
+
 **Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.18

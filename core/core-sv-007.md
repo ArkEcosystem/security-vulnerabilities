@@ -15,4 +15,5 @@ Additionally check the slot number of a received block, which must now be greate
 
 ## Status
 Closed.
+
 **Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.17

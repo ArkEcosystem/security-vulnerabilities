@@ -13,6 +13,7 @@ Reset last downloaded block after discarding an invalid block.
 
 ## Status
 Closed.
-**Release link:** https://github.com/ArkEcosystem/core/releases/tag/2.0.16
+
+**Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.16
 
 

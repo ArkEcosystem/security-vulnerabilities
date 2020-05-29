@@ -21,4 +21,5 @@ Use `ipaddr.js` to ensure IPv4 addresses are converted into quad-dotted notation
 
 ## Status
 Closed.
+
 **Release:** https://github.com/ArkEcosystem/core/releases/tag/2.0.19
