@@ -12,7 +12,9 @@ The lists of know and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
-| [Core-SV-042](/core/core-sv-042.md)| Nonce comparison takes too long to complete when fetching unconfirmed transactions to forge | Closed | [v2.6.34](https://github.com/ArkEcosystem/core/releases/tag/2.6.34) |
+| [Core-SV-044](/core/core-sv-044.md)| Marshalled block payloads using the peer-to-peer transport codec were not sanitized | Closed | [v2.6.37](https://github.com/ArkEcosystem/core/releases/tag/2.6.37) |
+| [Core-SV-043](/core/core-sv-043.md)| Tree memory structure exceeded maximum call stack size when fetching unconfirmed transactions to forge | Closed | [v2.6.36](https://github.com/ArkEcosystem/core/releases/tag/2.6.36) |
+| [Core-SV-042](/core/core-sv-042.md)| Nonce comparison took too long to complete when fetching unconfirmed transactions to forge | Closed | [v2.6.34](https://github.com/ArkEcosystem/core/releases/tag/2.6.34) |
 | [Core-SV-041](/core/core-sv-041.md)| Overloading the public API could stop the transaction and block processing on a node | Closed | [v2.6.30](https://github.com/ArkEcosystem/core/releases/tag/2.6.30) |
 | [Core-SV-040](/core/core-sv-040.md)| Long-lived HTTP requests via the P2P layer could crash the node | Closed | [v2.6.27](https://github.com/ArkEcosystem/core/releases/tag/2.6.27) |
 | [Core-SV-039](/core/core-sv-039.md)| Pool wallet manager could lock up funds by not updating multipayment balances | Closed | [v2.6.21](https://github.com/ArkEcosystem/core/releases/tag/2.6.21) |
