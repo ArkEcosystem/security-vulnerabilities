@@ -2,16 +2,17 @@
 
 Producing software inherently comes with risks. All software, especially new releases and large code re-writes, have a higher probability of producing bugs during production and initial release. To combat this, the ARK team has introduced modern testing methods, higher test coverage, a custom developed e2e testing framework and increased the availability for testing on our Development Network prior to the releases. Despite all of that, no one can catch every potential issue. 
 
-We are running our own [development and security bounty program](https://blog.ark.io/ark-development-and-security-bounty-program-a95122d06879), and we have partnered with [Bugcrowd — the planet’s premier crowd sourced security platform!](https://blog.ark.io/ark-and-bugcrowd-go-hunting-cda4025051d5) Make sure to check both bounty programs. Please check detailed instructions, on how to report a security vulnerability https://docs.ark.io/security/.
+We are running our own [development and security bounty program](https://blog.ark.io/ark-development-and-security-bounty-program-a95122d06879). Please check detailed instructions on how to report a security vulnerability at https://ark.io/sv/.
 
 >This repository series will serve as a public disclosure of any discovered and patched vulnerabilities within the ARK Blockchain Platform Product Landscape (Core, Desktop Wallet, Mobile Wallet, ARK Pay & Deployer).
 
-The lists of know and closed or still open security vulnerabilites can be found in the tables below. The table consists of four fields, describing the basic information about listed security vulnerabilities and links to a more detailed description, by clicking on the link in the identifier field. 
+The list of known and closed or still open security vulnerabilites can be found in the tables below. Each table consists of four fields, describing the basic information about the listed security vulnerabilities and a more detailed description is available by clicking on the link in the identifier field.
 
 ## Core Security Vulnerabilities
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-045](/core/core-sv-045.md)| Induced slow block propagation forked the network | Closed | [v2.6.38](https://github.com/ArkEcosystem/core/releases/tag/2.6.38) |
 | [Core-SV-044](/core/core-sv-044.md)| Marshalled block payloads using the peer-to-peer transport codec were not sanitized | Closed | [v2.6.37](https://github.com/ArkEcosystem/core/releases/tag/2.6.37) |
 | [Core-SV-043](/core/core-sv-043.md)| Tree memory structure exceeded maximum call stack size when fetching unconfirmed transactions to forge | Closed | [v2.6.36](https://github.com/ArkEcosystem/core/releases/tag/2.6.36) |
 | [Core-SV-042](/core/core-sv-042.md)| Nonce comparison took too long to complete when fetching unconfirmed transactions to forge | Closed | [v2.6.34](https://github.com/ArkEcosystem/core/releases/tag/2.6.34) |
