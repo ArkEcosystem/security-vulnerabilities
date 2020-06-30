@@ -12,6 +12,10 @@ The list of known and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-049](/core/core-sv-049.md)| ECDSA-signed block and transaction signatures were malleable | Closed | [v2.6.39](https://github.com/ArkEcosystem/core/releases/tag/2.6.39) |
+| [Core-SV-048](/core/core-sv-048.md)| Delayed completion of peer verification stopped nodes forging | Closed | [v2.6.39](https://github.com/ArkEcosystem/core/releases/tag/2.6.39) |
+| [Core-SV-047](/core/core-sv-047.md)| Block ID-based exceptions were vulnerable to preimage attacks and blockchain poisoning | Closed | [v2.6.39](https://github.com/ArkEcosystem/core/releases/tag/2.6.39) |
+| [Core-SV-046](/core/core-sv-046.md)| Block schema violations could halt the blockchain | Closed | [v2.6.39](https://github.com/ArkEcosystem/core/releases/tag/2.6.39) |
 | [Core-SV-045](/core/core-sv-045.md)| Induced slow block propagation forked the network | Closed | [v2.6.38](https://github.com/ArkEcosystem/core/releases/tag/2.6.38) |
 | [Core-SV-044](/core/core-sv-044.md)| Marshalled block payloads using the peer-to-peer transport codec were not sanitized | Closed | [v2.6.37](https://github.com/ArkEcosystem/core/releases/tag/2.6.37) |
 | [Core-SV-043](/core/core-sv-043.md)| Tree memory structure exceeded maximum call stack size when fetching unconfirmed transactions to forge | Closed | [v2.6.36](https://github.com/ArkEcosystem/core/releases/tag/2.6.36) |
