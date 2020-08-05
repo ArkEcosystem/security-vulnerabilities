@@ -12,6 +12,12 @@ The list of known and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-055](/core/core-sv-055.md)| Negative values were erroneously accepted in ECDSA signatures | Closed | [v2.6.49](https://github.com/ArkEcosystem/core/releases/tag/2.6.49) |
+| [Core-SV-054](/core/core-sv-054.md)| DER signature manipulation could fork the network, roll back and replay transactions | Closed | [v2.6.49](https://github.com/ArkEcosystem/core/releases/tag/2.6.49) |
+| [Core-SV-053](/core/core-sv-053.md)| Pool poisoning could stop delegates forging any transactions | Closed | [v2.6.49](https://github.com/ArkEcosystem/core/releases/tag/2.6.49) |
+| [Core-SV-052](/core/core-sv-052.md)| Port ping payload sizes were unchecked and could cause bandwidth flood attacks | Closed | [v2.6.49](https://github.com/ArkEcosystem/core/releases/tag/2.6.49) |
+| [Core-SV-051](/core/core-sv-051.md)| Slow PostgreSQL query attack could have caused delegates to miss blocks | Closed | [v2.6.49](https://github.com/ArkEcosystem/core/releases/tag/2.6.49) |
+| [Core-SV-050](/core/core-sv-050.md)| Consecutive big blocks could exceed the maximum payload limit | Closed | [v2.6.49](https://github.com/ArkEcosystem/core/releases/tag/2.6.49) |
 | [Core-SV-049](/core/core-sv-049.md)| ECDSA-signed block and transaction signatures were malleable | Closed | [v2.6.39](https://github.com/ArkEcosystem/core/releases/tag/2.6.39) |
 | [Core-SV-048](/core/core-sv-048.md)| Delayed completion of peer verification stopped nodes forging | Closed | [v2.6.39](https://github.com/ArkEcosystem/core/releases/tag/2.6.39) |
 | [Core-SV-047](/core/core-sv-047.md)| Block ID-based exceptions were vulnerable to preimage attacks and blockchain poisoning | Closed | [v2.6.39](https://github.com/ArkEcosystem/core/releases/tag/2.6.39) |
