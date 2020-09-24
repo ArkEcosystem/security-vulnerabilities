@@ -12,6 +12,8 @@ The list of known and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-057](/core/core-sv-057.md)| HTTP header manipulation caused out of memory crashes | Closed | [v2.6.54](https://github.com/ArkEcosystem/core/releases/tag/2.6.54) |
+| [Core-SV-056](/core/core-sv-056.md)| Prepending zeros in the hex representation of a signature would change its ID | Closed | [v2.6.52](https://github.com/ArkEcosystem/core/releases/tag/2.6.52) |
 | [Core-SV-055](/core/core-sv-055.md)| Negative values were erroneously accepted in ECDSA signatures | Closed | [v2.6.49](https://github.com/ArkEcosystem/core/releases/tag/2.6.49) |
 | [Core-SV-054](/core/core-sv-054.md)| DER signature manipulation could fork the network, roll back and replay transactions | Closed | [v2.6.49](https://github.com/ArkEcosystem/core/releases/tag/2.6.49) |
 | [Core-SV-053](/core/core-sv-053.md)| Pool poisoning could stop delegates forging any transactions | Closed | [v2.6.49](https://github.com/ArkEcosystem/core/releases/tag/2.6.49) |
