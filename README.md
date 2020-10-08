@@ -12,6 +12,8 @@ The list of known and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-061](/core/core-sv-061.md)| Peer lists could exceed the maximum permitted payload size | Closed | [v2.7.0](https://github.com/ArkEcosystem/core/releases/tag/2.7.0) |
+| [Core-SV-060](/core/core-sv-060.md)| Outgoing sockets were not properly rate limited | Closed | [v2.7.0](https://github.com/ArkEcosystem/core/releases/tag/2.7.0) |
 | [Core-SV-059](/core/core-sv-059.md)| Newly connected peers did not have an initial maximum payload limit | Closed | [v2.6.57](https://github.com/ArkEcosystem/core/releases/tag/2.6.57) |
 | [Core-SV-058](/core/core-sv-058.md)| Insufficient transaction asset validation | Closed | [v2.6.57](https://github.com/ArkEcosystem/core/releases/tag/2.6.57) |
 | [Core-SV-057](/core/core-sv-057.md)| HTTP header manipulation caused out of memory crashes | Closed | [v2.6.54](https://github.com/ArkEcosystem/core/releases/tag/2.6.54) |
