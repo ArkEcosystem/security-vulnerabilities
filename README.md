@@ -12,6 +12,7 @@ The list of known and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-062](/core/core-sv-062.md)| Outgoing connections were not destroyed after receiving unsupported WebSocket frames | Closed | [v2.7.1](https://github.com/ArkEcosystem/core/releases/tag/2.7.1) |
 | [Core-SV-061](/core/core-sv-061.md)| Peer lists could exceed the maximum permitted payload size | Closed | [v2.7.0](https://github.com/ArkEcosystem/core/releases/tag/2.7.0) |
 | [Core-SV-060](/core/core-sv-060.md)| Outgoing sockets were not properly rate limited | Closed | [v2.7.0](https://github.com/ArkEcosystem/core/releases/tag/2.7.0) |
 | [Core-SV-059](/core/core-sv-059.md)| Newly connected peers did not have an initial maximum payload limit | Closed | [v2.6.57](https://github.com/ArkEcosystem/core/releases/tag/2.6.57) |
