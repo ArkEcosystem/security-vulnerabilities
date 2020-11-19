@@ -12,6 +12,9 @@ The list of known and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-065](/core/core-sv-065.md)| Requesting blocks at a very high height locked up PostgreSQL | Closed | [v2.7.6](https://github.com/ArkEcosystem/core/releases/tag/2.7.6) |
+| [Core-SV-064](/core/core-sv-064.md)| Binary data payloads could stop forging | Closed | [v2.7.6](https://github.com/ArkEcosystem/core/releases/tag/2.7.6) |
+| [Core-SV-063](/core/core-sv-063.md)| Large payloads sent to internal endpoints prevented forging | Closed | [v2.7.6](https://github.com/ArkEcosystem/core/releases/tag/2.7.6) |
 | [Core-SV-062](/core/core-sv-062.md)| Outgoing connections were not destroyed after receiving unsupported WebSocket frames | Closed | [v2.7.1](https://github.com/ArkEcosystem/core/releases/tag/2.7.1) |
 | [Core-SV-061](/core/core-sv-061.md)| Peer lists could exceed the maximum permitted payload size | Closed | [v2.7.0](https://github.com/ArkEcosystem/core/releases/tag/2.7.0) |
 | [Core-SV-060](/core/core-sv-060.md)| Outgoing sockets were not properly rate limited | Closed | [v2.7.0](https://github.com/ArkEcosystem/core/releases/tag/2.7.0) |
