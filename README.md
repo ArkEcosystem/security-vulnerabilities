@@ -12,6 +12,13 @@ The list of known and closed or still open security vulnerabilites can be found 
 
 | Identifier | Title| Status | Version |
 | ------------- | ------------ | ------ | ----- | 
+| [Core-SV-072](/core/core-sv-072.md)| Slow query stopped nodes when requesting blocks from specific generators | Closed | [v2.7.13](https://github.com/ArkEcosystem/core/releases/tag/2.7.13) |
+| [Core-SV-071](/core/core-sv-071.md)| Reviver function in the transport codec could cause denial of service | Closed | [v2.7.13](https://github.com/ArkEcosystem/core/releases/tag/2.7.13) |
+| [Core-SV-070](/core/core-sv-070.md)| Incoming connections were not banned when failing basic validation checks | Closed | [v2.7.13](https://github.com/ArkEcosystem/core/releases/tag/2.7.13) |
+| [Core-SV-069](/core/core-sv-069.md)| Exceeding individual but not global rate limit evaded ban | Closed | [v2.7.13](https://github.com/ArkEcosystem/core/releases/tag/2.7.13) |
+| [Core-SV-068](/core/core-sv-068.md)| Automatic peer reconnection did not reattach socket event listeners | Closed | [v2.7.13](https://github.com/ArkEcosystem/core/releases/tag/2.7.13) |
+| [Core-SV-067](/core/core-sv-067.md)| Schema violation requesting common blocks did not close the connection | Closed | [v2.7.13](https://github.com/ArkEcosystem/core/releases/tag/2.7.13) |
+| [Core-SV-066](/core/core-sv-066.md)| Blocks were accepted but not propagated if received out of slot | Closed | [v2.7.13](https://github.com/ArkEcosystem/core/releases/tag/2.7.13) |
 | [Core-SV-065](/core/core-sv-065.md)| Requesting blocks at a very high height locked up PostgreSQL | Closed | [v2.7.6](https://github.com/ArkEcosystem/core/releases/tag/2.7.6) |
 | [Core-SV-064](/core/core-sv-064.md)| Binary data payloads could stop forging | Closed | [v2.7.6](https://github.com/ArkEcosystem/core/releases/tag/2.7.6) |
 | [Core-SV-063](/core/core-sv-063.md)| Large payloads sent to internal endpoints prevented forging | Closed | [v2.7.6](https://github.com/ArkEcosystem/core/releases/tag/2.7.6) |
